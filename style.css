@@ -1,0 +1,76 @@
+body {
+    background-color: #0d9c14d2;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+  }
+  
+ .demo {
+     background-color: aliceblue;
+ }
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-top: 20px;
+    margin-bottom: 2px;
+    margin-left: 20px;
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="age"] {
+    margin-left: 20px;  
+    width: 360px;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #26af2b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]
+   {
+    background-color: rgb(14, 163, 9)(9, 255, 0);
+    width: 370px;
+    margin: 20px;
+  }
+
+   select {
+    margin-left: 20px;  
+    width: 350px;
+    padding: 8px;
+    margin-top: 5px;
+   }
+
+   label {
+    display: block;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 2px;
+  }
+  
+  textarea {
+      margin:  0px 20px;
+      width: 350px;
+  }
+   
+  

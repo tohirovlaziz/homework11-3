@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inglizcha Registratsiya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>GeeksforGeeks Survey Form</h2>
+  <form class="demo">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="enter your name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="enter your email" required>
+
+    <label for="password">Age</label>
+    <input type="age" id="age" name="age" placeholder="enter your age" required>
+
+    <label for="select">Which option best describes you?</label>
+    <select name="select" >
+        <option>happy</option>
+        <option>curious</option>
+        <option>shy</option>
+        <option>warlike</option>
+    </select>
+
+    <label for="radio">Would you recommend GeeksforGeeks?</label>
+    
+     <div></div>
+        <label>
+          <input type="radio" name="answer" value="yes">
+          Yes
+        </label>
+        <label>
+          <input type="radio" name="answer" value="no">
+          No
+        </label>
+        <label>
+          <input type="radio" name="answer" value="maybe">
+          Maybe
+        </label>
+     </div>
+
+     <label for="check">Languages and frameworks known</label>
+
+     
+        <label>
+          <input type="checkbox" name="language" value="python">
+          Python
+        </label>
+        <label>
+          <input type="checkbox" name="language" value="java">
+          Java
+        </label>
+        <label>
+          <input type="checkbox" name="language" value="javascript">
+          JavaScript
+        </label>
+      <label for="comments">Any Comments or suggestions</label>
+
+        <textarea id="description" name="description"></textarea>
+      </label>
+
+      <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
